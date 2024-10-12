@@ -1,0 +1,59 @@
+*{
+	font-family:Arial;
+	line-height:1.5;
+	margin:  0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	box-sizing: border-box;
+}
+
+.main{
+	display:flex;
+	margin-left:  auto;
+	margin-right:  auto;
+	width : 900px;
+	flex-direction:column;
+	box-shadow: 0 0 4px rgba(0,0,0,0.5);
+}
+
+.buttonNoteSection{
+	text-align:center;
+	
+}
+
+.btn{
+	padding:5px;
+	color:white;
+	background:linear-gradient(cyan, green);
+	box-shadow: 0 0 4px rgba(0,0,0,0.5);
+	border:none;
+	cursor:pointer;
+}
+
+.note{
+	background-color:rgb(182, 245, 245);
+	border-bottom:2px solid black;
+	padding: 15px;
+}
+
+.noteMessage{
+	display:none;
+}
+
+.noteMessageBox{
+	display:none;
+	position:absolute;
+	width:540px;
+	top:340px;
+	left:calc((100% - 540px) / 2);
+	background-color:rgb(225, 255, 115);
+	padding:20px;
+}
+
+.noteMessageBox>h1{
+	margin-bottom:20px;
+	text-align:center;
+}
+
+.note:hover{
+	background-color:red;
+}
